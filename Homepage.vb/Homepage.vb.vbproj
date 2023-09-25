@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5D8E1C95-FE59-4EFD-9CA1-31CA3BA64B92}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Homepage.vb.My.MyApplication</StartupObject>
+    <RootNamespace>Homepage.vb</RootNamespace>
+    <AssemblyName>Homepage.vb</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Homepage.vb.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Homepage.vb.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="article.Designer.vb">
+      <DependentUpon>article.vb</DependentUpon>
+    </Compile>
+    <Compile Include="article.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="contactUs.Designer.vb">
+      <DependentUpon>contactUs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="contactUs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="depression.Designer.vb">
+      <DependentUpon>depression.vb</DependentUpon>
+    </Compile>
+    <Compile Include="depression.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homepage2.Designer.vb">
+      <DependentUpon>Homepage2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Homepage2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mooddisorderArticle.Designer.vb">
+      <DependentUpon>mooddisorderArticle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mooddisorderArticle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ocdArticle.Designer.vb">
+      <DependentUpon>ocdArticle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ocdArticle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ptsdArticle.Designer.vb">
+      <DependentUpon>ptsdArticle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ptsdArticle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stress1.Designer.vb">
+      <DependentUpon>stress1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stress1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="questionnaire.Designer.vb">
+      <DependentUpon>questionnaire.vb</DependentUpon>
+    </Compile>
+    <Compile Include="questionnaire.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suicide.Designer.vb">
+      <DependentUpon>Suicide.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Suicide.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="anxiety.Designer.vb">
+      <DependentUpon>anxiety.vb</DependentUpon>
+    </Compile>
+    <Compile Include="anxiety.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="v1.Designer.vb">
+      <DependentUpon>v1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="v1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="v2.Designer.vb">
+      <DependentUpon>v2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="v2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="v3.Designer.vb">
+      <DependentUpon>v3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="v3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="v4.Designer.vb">
+      <DependentUpon>v4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="v4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="videos.Designer.vb">
+      <DependentUpon>videos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="videos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="article.resx">
+      <DependentUpon>article.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="contactUs.resx">
+      <DependentUpon>contactUs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="depression.resx">
+      <DependentUpon>depression.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homepage2.resx">
+      <DependentUpon>Homepage2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mooddisorderArticle.resx">
+      <DependentUpon>mooddisorderArticle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ocdArticle.resx">
+      <DependentUpon>ocdArticle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ptsdArticle.resx">
+      <DependentUpon>ptsdArticle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stress1.resx">
+      <DependentUpon>stress1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="questionnaire.resx">
+      <DependentUpon>questionnaire.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suicide.resx">
+      <DependentUpon>Suicide.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="anxiety.resx">
+      <DependentUpon>anxiety.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="v1.resx">
+      <DependentUpon>v1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="v2.resx">
+      <DependentUpon>v2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="v3.resx">
+      <DependentUpon>v3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="v4.resx">
+      <DependentUpon>v4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="videos.resx">
+      <DependentUpon>videos.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-menu-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %28335%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mental-health-awareness-month-900x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mental-Health-Awareness-1024x316.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\are-we-in-mental-health-crisis-P-Hero.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0.91309700_1537947789_49-body-burden.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depression.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-09-23 at 20.08.07.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled %2813%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled %2814%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled %2815%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled %2816%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled %2816%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled %2817%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled %2813%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled %2813%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled %2812%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled %2816%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled %2816%293.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-facebook-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-instagram-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-twitter-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-twitter-481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled %2817%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled %285%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-09-24 at 22.56.07.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-09-24 at 22.56.071.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-09-24 at 22.56.07.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-09-24 at 23.05.14.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-09-24 at 23.59.14.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_2023-09-25_08-18-36.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-48.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
